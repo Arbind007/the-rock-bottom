@@ -1,0 +1,127 @@
+body{
+	margin: 0px;
+
+	display: block;
+		background-image: url(../logo.jpg.jpeg);
+	
+	display: inline-block;
+	background-position: 50% 230px ;
+	position: center;
+	background-size: 87% 270%;
+	background-repeat: no-repeat;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	lighting-color: transparent;
+	
+	background-size: cover;
+
+
+	padding-bottom:90%;
+	
+}
+
+
+header{
+	background-image: url(../bg.jpeg);
+	background-position: center;
+
+color: rgba(150,114,80,1);
+background-color: rgba(0,0,0,1);
+
+padding-top: 2%;
+text-align: center;
+border-style: outset;border-image: url(../bg.jpeg);
+border-image-outset: all;
+border-width:50px;
+text-shadow: 2px 2px 3px rgba(100,100,100,1);
+
+
+}
+header>h1{
+
+text-shadow: rgba(255,255,255,1);
+}
+#TITLE{
+	margin-top: -2%;
+	font-size: 55px;
+	//font-weight: bolder;
+	text-shadow: rgba(255,255,255,1);
+
+}
+
+ /*#BG{
+	display: inline-block;
+	opacity: 50%;
+	position: center;
+	position: absolute;
+	width: 100%;
+	display: 
+}*/
+nav{
+	width: 100%;
+	text-orientation: initial;
+}
+
+.links{
+	margin: 30px;
+	margin-top: 1px;
+	
+	text-decoration: none;
+	padding:4%;
+	background-color: rgba(120,120,120,0.5);
+	font-size: 29px;
+	
+	border-style: outset;
+	border-color: rgba(100,100,100,0.5);
+	color: white;
+	padding-top: 0.3%;padding-bottom: 0.3%;
+	display: inline-flex;
+	width:10vw;
+	z-index: 0;
+	justify-content: center;
+	border-radius: 10px;
+	text-align: center;
+
+}
+#active{
+	background-color:rgba(120,120,120,0.9);
+
+cursor: default;
+        pointer-events: none;        
+        text-decoration: none;
+        text-decoration: underline;
+}
+
+.links:hover {
+	text-decoration: underline;
+	background-color: rgba(220,220,220,0.7);
+}
+#active:hover{
+	text-decoration: underline;
+	background-color: rgba(220,220,220,0.7);
+}
+aside{
+	margin-left: 10%;
+}
+p{
+	color: white;
+}
+footer{
+	color: rgba(140,104,70,1);
+background-color: black;
+position: absolute;
+ 
+  left: 0;
+  bottom: 0;
+  width: 100%;
+height: 2%;
+  text-align: right;
+  /*visibility: hidden;
+}
+footer.hover{
+	visibility: visible;*/
+}
+
+/*<img id="abc" src="logo.jpg.jpeg"/>
